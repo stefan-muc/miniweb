@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libctb">
+      <UniqueIdentifier>{279c55ff-2730-462a-8f81-41688cee0052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpauth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpclient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httphandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httppil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httppost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpserial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpxml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="miniweb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="processpil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\fifo.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\getopt.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\iobase.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\kbhit.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\portscan.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+    <ClCompile Include="libctb\src\serportx.cpp">
+      <Filter>Source Files\libctb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="httpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httppil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpvod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processpil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="revision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
