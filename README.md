@@ -1,13 +1,13 @@
-# miniweb-avih
+# miniweb-fork
 Small, cross-platform HTTP server
 
 - This is a fork of http://miniweb.sourceforge.net/ , with enhanced directory
 listing. The original project seems unmaintained since 2013.
 - License: "GNU Library or Lesser General Public License version 2.0 (LGPLv2)".
 See [License note](./miniweb-avih/LICENSE.md).
-- A snapshot of the original repository 
+- A snapshot of the original repository
 [svn rev 208](https://sourceforge.net/p/miniweb/code/208/) on which this fork is
-based is at branch `svn-orig-rev-208` of this repository.
+based is at commit 7812a0a of this repository.
 
 ### [Original project description below]
 
