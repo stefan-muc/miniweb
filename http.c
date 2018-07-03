@@ -2081,6 +2081,7 @@ int mwGetContentType(const char *pchExtname)
 		case FILEEXT_JPG:	return HTTPFILETYPE_JPEG;
 		case FILEEXT_GIF:	return HTTPFILETYPE_GIF;
 		case FILEEXT_SVG:	return HTTPFILETYPE_SVG;
+		case FILEEXT_SVGZ:	return HTTPFILETYPE_SVG;
 		case FILEEXT_SWF:	return HTTPFILETYPE_SWF;
 		case FILEEXT_MPA:	return HTTPFILETYPE_MPA;
 		case FILEEXT_MPG:	return HTTPFILETYPE_MPEG;
